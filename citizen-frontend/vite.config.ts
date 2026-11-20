@@ -1,0 +1,3 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+export default defineConfig({plugins:[react()],server:{host:'0.0.0.0',port:5174,strictPort:true,headers:{'X-Content-Type-Options':'nosniff','X-Frame-Options':'SAMEORIGIN','Referrer-Policy':'strict-origin-when-cross-origin','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' http://localhost:8000 ws://localhost:5174; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"}}});

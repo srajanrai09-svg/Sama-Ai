@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.pytest_cache/
+backend/.test-uploads/
+.idea/
+.vscode/
+uploads/
+data/
+work/
+outputs/
+*.tsbuildinfo
+
